@@ -2,18 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import logo from './logo.svg';
 import './App.css';
-import {JSONTree} from 'react-json-tree';
 import NestedBox from './nested_box';
 import styled from 'styled-components';
 
 
 const StyledHeader = styled.header`
-  background-color: #7fbfff; /* Lighter blue background color */
+  background-color: #3A6FA2;
   color: #fff; /* Header text color */
   padding: 20px;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
+  border-radius: 10px; 
 `;
 
 const StyledTabs = styled(Tabs)`
@@ -28,7 +28,7 @@ const StyledTabList = styled(TabList)`
   padding: 0;
   margin: 0;
   justify-content: flex-start;
-  background-color: #fff;
+  background-color:  border: 1px solid #d0d3d4;;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
@@ -37,22 +37,23 @@ const StyledTab = styled(Tab)`
   cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #f0f0f0;
+  background-color: #f2f3f4;
   margin-right: 5px;
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #3498db;
+    background-color:  #d0d3d4;
   }
 `;
 
 const StyledTabPanel = styled(TabPanel)`
   display: none;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #bdc3c7;
   border-radius: 4px;
   margin-top: 20px;
   background-color: #fff;
+  border: 1px solid #d0d3d4;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   &.react-tabs__tab-panel--selected {
@@ -75,7 +76,7 @@ function App() {
 
   return (
     <div className="App">
-      <StyledHeader>Your Header Title</StyledHeader>
+      <StyledHeader>CCDA VIEWER</StyledHeader>
       <StyledTabs>
         <StyledTabList>
           {docList.map((doc, index) => {

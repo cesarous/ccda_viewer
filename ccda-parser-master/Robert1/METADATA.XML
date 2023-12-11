@@ -1,0 +1,1124 @@
+<SubmitObjectsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0">
+  <RegistryObjectList xmlns="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+    <ExtrinsicObject id="229f392c-ba49-49be-9350-feed6b06eb90" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>d0b3a2b5-c7bc-4f30-86d0-92e1a9818b52</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165423</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0001.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>146985</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>eb022670ba041c2f6b28618dc4fbd82668faeb57</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="bc444329-9cac-4b13-80a0-df481c6e4d88" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="229f392c-ba49-49be-9350-feed6b06eb90">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="092ad2d6-e4a1-4219-adbd-96614ea560d7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="229f392c-ba49-49be-9350-feed6b06eb90" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="7a2f9ff8-cf43-4b59-af59-ee0d75a49031" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="229f392c-ba49-49be-9350-feed6b06eb90" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="b66a1bbf-f85d-4d4b-b92b-fc9e10f755be" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="229f392c-ba49-49be-9350-feed6b06eb90" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="9c7f42e2-398b-456f-81fe-0696c7602b34" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="229f392c-ba49-49be-9350-feed6b06eb90" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="c8118bdb-5c39-49b3-8706-9205175700f2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="229f392c-ba49-49be-9350-feed6b06eb90" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.1">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="53df412d-6b12-4299-b396-758227d400d0" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>a47a203c-314a-4b55-8f5e-6c6266c9abc4</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165426</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0002.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>275829</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>a3cf01fe17c89ca68a8e88a64e3268618cf59d44</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="304757c4-edec-41af-9c43-669f443bae43" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="53df412d-6b12-4299-b396-758227d400d0">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="9ff53c1d-aa46-45be-9176-60ac5b6754c7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="53df412d-6b12-4299-b396-758227d400d0" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="d42a2e05-9b07-4506-9ec7-179240be2c15" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="53df412d-6b12-4299-b396-758227d400d0" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="8ab40a48-6b8c-4ce2-b52f-b49ae184763d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="53df412d-6b12-4299-b396-758227d400d0" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="6109cc55-254d-42d5-b13f-7fd255c11040" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="53df412d-6b12-4299-b396-758227d400d0" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="1a6598a6-0016-419a-9eb3-5524f84fdc69" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="53df412d-6b12-4299-b396-758227d400d0" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.2">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="8f233f85-2abd-4eaa-8949-8590ee4710e2" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>9fc985fa-47c0-40c0-9eb0-161897922592</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165430</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0003.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>146121</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>c9dee12c6d0d436e7de3287e8e8bef53463602d6</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="d15a6380-bbfa-42e3-935c-ace74f9e2e9b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="8f233f85-2abd-4eaa-8949-8590ee4710e2">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="c4de3109-3fc2-435f-8fee-2d54b4619466" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="8f233f85-2abd-4eaa-8949-8590ee4710e2" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="a23de42f-84cd-41c2-ae68-288c9ceeeb4b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="8f233f85-2abd-4eaa-8949-8590ee4710e2" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="22b5e06c-f6ac-4132-be1a-f905e6fe9522" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="8f233f85-2abd-4eaa-8949-8590ee4710e2" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="ec19fb86-200f-4299-9fb7-9704f427ab91" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="8f233f85-2abd-4eaa-8949-8590ee4710e2" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="3260afe5-c4ce-490c-afc3-1763a8f9b77d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="8f233f85-2abd-4eaa-8949-8590ee4710e2" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.3">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="b07c858f-4617-4c4e-a8fd-b575a82caaf7" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>c410e8e0-a41e-4bbc-83ad-67d54621c604</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165435</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0004.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>119916</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>c1a24f13983888fbd0ee9a54869c41b9398d8ac9</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="cf738f91-43f2-4e6b-9974-bd4dab4e5303" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="b07c858f-4617-4c4e-a8fd-b575a82caaf7">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="d7158662-2e72-49fc-a8bb-589cc5e9dcf0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="b07c858f-4617-4c4e-a8fd-b575a82caaf7" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="3ca6135d-6027-494b-a77a-3115b93cd17e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="b07c858f-4617-4c4e-a8fd-b575a82caaf7" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="50d52932-e2e7-4062-a12a-f4e000f0c2c0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="b07c858f-4617-4c4e-a8fd-b575a82caaf7" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="94c40cd0-fbae-419d-b2a4-fe77c3c278d9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="b07c858f-4617-4c4e-a8fd-b575a82caaf7" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="f1a302eb-0824-4b0b-a854-d3fa50b402cb" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="b07c858f-4617-4c4e-a8fd-b575a82caaf7" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.4">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="13456806-aba7-466f-ae38-6249ca2c0d81" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>e45dba51-fc83-4a1a-90c0-6fd024a1e65e</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165439</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0005.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>113205</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>4d0d2456d143a6b25e34425e9dd8c2f58382009d</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="ac7e09cb-4fad-4dcc-960b-15d72c15dec4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="13456806-aba7-466f-ae38-6249ca2c0d81">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="71b9d382-52fd-4462-9262-3a327aa31506" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="13456806-aba7-466f-ae38-6249ca2c0d81" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="86c3aed8-53e5-46ab-80f8-d4c746f83001" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="13456806-aba7-466f-ae38-6249ca2c0d81" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="24267b4c-209f-4067-9209-3d8828717368" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="13456806-aba7-466f-ae38-6249ca2c0d81" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="a26d9dc0-b53d-4ce6-93bd-4dfebafd708e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="13456806-aba7-466f-ae38-6249ca2c0d81" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="cfe09c5a-3186-469f-892d-d69b8d82f102" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="13456806-aba7-466f-ae38-6249ca2c0d81" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.5">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="37e23b90-ef53-4480-a600-65b8aaf30c02" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>e03cfe64-a847-4c97-8cfc-e9cd1a48b8d4</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165443</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0006.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>102986</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>afd2be0eac8eb5bdaf72340af526c3bd2d5917d4</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="d379c31f-fe4a-450e-a34d-bff80d47b00a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="37e23b90-ef53-4480-a600-65b8aaf30c02">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="57890aa8-c2b2-4fd3-a037-72025393446b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="37e23b90-ef53-4480-a600-65b8aaf30c02" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="3b342a9c-f3b0-4db4-9aca-5b20af7f1fc2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="37e23b90-ef53-4480-a600-65b8aaf30c02" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="14c92943-618c-4fcd-907d-c13bb4abfe9a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="37e23b90-ef53-4480-a600-65b8aaf30c02" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="2f59a344-4c9f-4064-94dc-5d29941ce014" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="37e23b90-ef53-4480-a600-65b8aaf30c02" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="070038d5-9261-4677-b4bc-78875a714ff4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="37e23b90-ef53-4480-a600-65b8aaf30c02" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.6">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="7896e064-8da8-4418-ba81-f02143da6622" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>ca373d71-ed79-40b7-bff6-dd0092c08af3</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165449</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0007.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>113436</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>18847df9528db695ecbee0e5a3c4f2db55373b02</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="c7ff2063-1b34-4dbb-91f1-04771b3cbb8a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="7896e064-8da8-4418-ba81-f02143da6622">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="5285168e-9a4b-46ee-b8b8-b2a43a16b684" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="7896e064-8da8-4418-ba81-f02143da6622" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="3a7f0f62-3951-4c34-8922-18b49d9bf569" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="7896e064-8da8-4418-ba81-f02143da6622" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="f49f0a79-8e4a-45a0-9972-71c7c2cf88dd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="7896e064-8da8-4418-ba81-f02143da6622" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="095eb766-0f5e-4b3a-b81b-5390f3bd1bb0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="7896e064-8da8-4418-ba81-f02143da6622" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="f9a1681c-bb2d-4671-a790-8b8f81756af4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="7896e064-8da8-4418-ba81-f02143da6622" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.7">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>f2208870-ded1-4ac7-9d6f-5e1381952948</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165451</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0008.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>104481</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>6a93b889e7d89670eeb4c3b675c3f55ca0e8a53a</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="cf26ee45-541f-4ba0-82a3-a331cfcff5e9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="6b5ce8bb-ebd8-4591-85d2-fbc3cbfeb379" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="e7518b25-b66d-4672-af0d-f92c528054ed" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="c9b0cbe5-02b5-45a2-a4a0-3072f136a4be" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="b3a33503-9d09-46b3-a917-944a2ba48035" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="91867423-e952-4b3c-b500-dcf3b9f2acef" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.8">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="98369c77-3465-40fc-b0af-aec82a890448" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>f5b93c1f-edd2-44cd-8d1c-6c860a28d32f</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165454</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0009.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>89991</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>b30b4a4f8797e04939619594f1718044b1206a97</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="cb0b98ee-c36e-4e81-aeb8-fbdc459f01ae" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="98369c77-3465-40fc-b0af-aec82a890448">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="f4c748b8-7ab5-4b15-95bf-729630e34882" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="98369c77-3465-40fc-b0af-aec82a890448" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="07ecb7bb-9279-4c2b-b71d-d3b238793583" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="98369c77-3465-40fc-b0af-aec82a890448" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="13eaac7b-3639-4b82-aef0-6f7c42871a21" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="98369c77-3465-40fc-b0af-aec82a890448" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="72bc849d-6c72-46a8-b06c-4df750433e28" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="98369c77-3465-40fc-b0af-aec82a890448" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="b53f9d67-94fa-4885-8497-5c26f918593e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="98369c77-3465-40fc-b0af-aec82a890448" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.9">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="1098e755-ed61-4902-8a53-bb46fa289cbd" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>28084b78-8782-47c6-b8f8-477a16fa5a48</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165456</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0010.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>123703</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>cd3ef5f16c925838c6d08e13bcf0fab658d94898</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="8ffcdf5d-0662-4bc9-89ff-4198bff56a2f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="1098e755-ed61-4902-8a53-bb46fa289cbd">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="05e882c5-8cf5-446b-81f1-aaca26cffc80" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="1098e755-ed61-4902-8a53-bb46fa289cbd" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="b2f091e4-f28d-4094-862f-51c073d1df01" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="1098e755-ed61-4902-8a53-bb46fa289cbd" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="2f5b5e66-3ed0-42b1-8200-2fbe9cea0ca7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="1098e755-ed61-4902-8a53-bb46fa289cbd" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="4902149a-6675-4e8f-95db-3f18c9e3af4b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="1098e755-ed61-4902-8a53-bb46fa289cbd" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="72fef25c-e219-40bf-9a80-20d504bdd55c" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="1098e755-ed61-4902-8a53-bb46fa289cbd" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.10">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>10a85221-c2c9-43bb-89a5-e6de264c18f4</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165459</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0011.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>81783</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>cc77fda2a2964b1d7a64489ebb5a53d662e51047</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="ca7ce2bf-eb70-4639-bd30-d41e7f3dcfcd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="d22381d1-aa3a-468d-9f21-1aca6737fe6d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="e7a036b6-b7aa-43ab-a2b5-c4af70b437b8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="e7dc7990-42bc-4650-96a0-f1d87c92bc8e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="47b85ca6-f938-4ac6-9581-0c15e83917b7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="984eacf0-d796-45e9-8554-0b6ddb626816" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.11">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="0cb78352-854a-4013-abb3-508579b432bb" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>8606e04b-f89f-4bfe-a7ca-df2ec12ade52</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20231005165501</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|ibjmqq528w5j9hb^^^&amp;1.2.840.114350.1.13.617.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Bilek^Robert^G^^^</Value>
+          <Value>PID-7|19690508</Value>
+          <Value>PID-8|M</Value>
+          <Value>PID-11|24333 S CLYDESDALE CT^^MANHATTAN^IL^60442-1479^USA</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0012.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>81925</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>30807a13586a5aec96761b62ac569a78b19c8e54</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="d6ca7d42-2f58-4225-b94f-b2bc74ba72c8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="0cb78352-854a-4013-abb3-508579b432bb">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="d7ea3eb5-40b8-4aff-8df0-720244d4f1db" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="0cb78352-854a-4013-abb3-508579b432bb" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="068c090b-b72d-4be1-820d-d4da87abc7e6" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="0cb78352-854a-4013-abb3-508579b432bb" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="a1cf54bb-fce5-4d51-9565-70413e56b659" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="0cb78352-854a-4013-abb3-508579b432bb" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="3bfec689-d7da-40a0-be66-4103a4119d1a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="0cb78352-854a-4013-abb3-508579b432bb" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="4f539153-6f59-4f16-a205-7d96b11d9301" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="0cb78352-854a-4013-abb3-508579b432bb" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359.12">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <RegistryPackage id="SubmissionSet" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:RegistryPackage" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+      <Slot name="submissionTime">
+        <ValueList>
+          <Value>20231005165423</Value>
+        </ValueList>
+      </Slot>
+      <Name>
+        <LocalizedString charset="UTF-8" value="Submission Set" />
+      </Name>
+      <Classification id="7d1041e0-cb90-4639-b169-d06adee297a1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="SubmissionSet">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Illinois Bone and Joint, LLC</Value>
+          </ValueList>
+        </Slot>
+        <Slot name="authorPerson">
+          <ValueList>
+            <Value>104.0^Epic - Version 104.0</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <ExternalIdentifier id="e015d6a1-77bd-4c91-a2c1-867d4417f9eb" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="Z204738^^^&amp;1.2.840.114350.1.13.617.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="5a0a9170-27c2-4f29-a966-c54e27622d2e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.840.114350.1.13.617.2.7.2.876870">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.sourceId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="2980ecbc-e4c0-455d-8075-64083e8b57d5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="1.2.840.114350.1.13.617.2.7.2.876870.Z204738.638321036633988359">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </RegistryPackage>
+    <Classification id="42ce0982-2e18-4687-92e9-bb85abcbd566" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="SubmissionSet" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" />
+    <Association id="07e5aaf8-9413-439c-9f18-6132ba758928" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="229f392c-ba49-49be-9350-feed6b06eb90">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="d254dab3-c318-4045-a907-c9937abbe419" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="53df412d-6b12-4299-b396-758227d400d0">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="8f85ac73-5be0-4ef9-9565-2ab523ed4ca8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="8f233f85-2abd-4eaa-8949-8590ee4710e2">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="949e0410-e102-47a9-b2b5-724b049666db" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="b07c858f-4617-4c4e-a8fd-b575a82caaf7">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="415102a0-8d99-49dc-b0d5-ec66f3580cf5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="13456806-aba7-466f-ae38-6249ca2c0d81">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="670737ef-a081-4d59-9ed2-1b6181a4759c" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="37e23b90-ef53-4480-a600-65b8aaf30c02">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="d6d191f6-4164-41f4-ad16-024947dced12" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="7896e064-8da8-4418-ba81-f02143da6622">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="33bc09e9-b428-4717-b2b0-0a5b8acb2949" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="1fe0dd36-38f0-49b4-ae4f-496a8463cb6e">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="0e5e3b84-c8fd-4cf8-9aff-e82b72f70294" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="98369c77-3465-40fc-b0af-aec82a890448">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="cc9d7a56-5332-463f-82fa-2777e39f1d64" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="1098e755-ed61-4902-8a53-bb46fa289cbd">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="8c195bac-408f-44dd-8dae-3214aa10036d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="cdcdbc14-7753-4ccb-82b8-cc52b304f8bc">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="d91efddc-a09f-43f8-80c3-40a9ac1bb580" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="0cb78352-854a-4013-abb3-508579b432bb">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <ObjectRef id="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" />
+    <ObjectRef id="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" />
+    <ObjectRef id="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" />
+    <ObjectRef id="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" />
+    <ObjectRef id="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" />
+    <ObjectRef id="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" />
+    <ObjectRef id="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" />
+    <ObjectRef id="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" />
+    <ObjectRef id="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" />
+    <ObjectRef id="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" />
+    <ObjectRef id="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" />
+    <ObjectRef id="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" />
+    <ObjectRef id="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" />
+    <ObjectRef id="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" />
+  </RegistryObjectList>
+</SubmitObjectsRequest>

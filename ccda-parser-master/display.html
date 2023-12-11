@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Display</title>
+</head>
+<body>
+
+<div id="json-display"></div>
+
+<script>
+// Fetch the JSON data from the "output.json" file
+fetch('output.json')
+  .then(response => response.json())
+  .then(data => {
+    // Convert the JavaScript object to a formatted JSON string
+    var formattedJson = JSON.stringify(data, null, 4);
+
+    // Insert the formatted JSON into the HTML element
+    document.getElementById("json-display").innerHTML = `<pre>${formattedJson}</pre>`;
+  })
+  .catch(error => console.error('Error reading JSON:', error));
+</script>
+
+</body>
+</html>

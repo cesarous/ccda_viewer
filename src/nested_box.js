@@ -56,12 +56,7 @@ function NestedBox({ data }) {
         }
         // Check if the object has any properties
         const hasValidChildren = Object.keys(value).length > 0;
-        // Additional check for the key "birthplace"
-          if (key === "birthplace") {
-            console.log("Key:", key);
-            console.log("Value:", value);
-            console.log("Value Type:", typeof value);
-          }
+
         return (
           <div key={index} className="box-container">
             <div className="box">

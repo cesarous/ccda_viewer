@@ -4,7 +4,7 @@ import subprocess
 backend_process = subprocess.Popen(['python', '-m', 'flask', 'run'], cwd='ccda-parser-master')
 
 # Start the frontend
-frontend_process = subprocess.Popen(['C:/Users/Payton Moore/node/npm.cmd', 'start'], cwd='cda_viewer')
+frontend_process = subprocess.Popen(['npm', 'start'], cwd='cda_viewer')
 
 try:
     backend_process.wait()
